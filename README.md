@@ -64,6 +64,3 @@ This project demonstrates a complete **end-to-end machine learning workflow**, s
 
 By containerizing the application using **Docker**, the model becomes portable, reproducible, and production-ready. This approach reflects how machine learning solutions are actually delivered in industry — not just as notebooks, but as scalable services.
 
-Overall, this project builds a strong foundation in:
-- Machine learning
-
