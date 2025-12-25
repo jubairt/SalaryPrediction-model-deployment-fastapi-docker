@@ -46,3 +46,24 @@ This project is perfect for beginners who want to understand how a trained ML mo
 ```bash
 git clone <your-github-repo-url>
 cd <repo-folder>
+```
+
+### 2️⃣ Build Docker Image
+```bash
+docker build -t salary-fastapi .
+```
+
+### 3️⃣ Run Docker Container
+```bash
+docker run -p 8000:8000 salary-fastapi
+```
+
+## ✅ Conclusion
+
+This project demonstrates a complete **end-to-end machine learning workflow**, starting from model training to real-world deployment. A simple **Linear Regression model** was trained to predict salary based on years of experience, saved as an artifact, and served through a **FastAPI REST API**.
+
+By containerizing the application using **Docker**, the model becomes portable, reproducible, and production-ready. This approach reflects how machine learning solutions are actually delivered in industry — not just as notebooks, but as scalable services.
+
+Overall, this project builds a strong foundation in:
+- Machine learning
+
